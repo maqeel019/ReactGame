@@ -2,7 +2,7 @@
   display: grid;
   justify-content:center;
   align-items: center; 
-  grid-template: auto auto / repeat(3, .1fr);
+  grid-template: auto auto / repeat(4, .1fr);
   }
  
   .first{
@@ -21,6 +21,7 @@
     color: #333;
     background-color: rgb(29, 255, 255); 
     margin-left: 45px;
+    cursor: pointer;
 
   }
   
@@ -62,12 +63,12 @@
 
   }
    .rollBtn{
-    width: 100px;
+    width: 150px;
     padding: 10px 15px;
     background-color: rgba(9, 129, 129, 0.653); 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 18px;
+    font-weight: 750;
     margin-top: 20px;
     border-radius: 10%;
     cursor: pointer;

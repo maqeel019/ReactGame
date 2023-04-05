@@ -10,7 +10,7 @@ function TenziesGame(props) {
     
     <div>
       <div className="tenzi-row first">
-        <div className="tenzi-cell" style={styles}>{props.value }</div>
+        <div className="tenzi-cell" style={styles} onClick={props.hold}>{props.value }</div>
       </div>
     </div>
   );
