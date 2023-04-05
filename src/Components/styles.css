@@ -1,0 +1,88 @@
+.tenzies-container { 
+  display: grid;
+  justify-content:center;
+  align-items: center; 
+  grid-template: auto auto / repeat(3, .1fr);
+  }
+ 
+  .first{
+    margin-top: 6%;
+  }
+  .second{
+    margin-top: 3%;
+  }
+  .tenzi-cell {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #333;
+    border-radius: 15%; 
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgb(29, 255, 255); 
+    margin-left: 45px;
+
+  }
+  
+  
+  .scoreboard-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  
+
+  h1{
+   color: #333; 
+  }
+  p{
+    color: rgb(9, 129, 129);
+    font-size: 16px;
+    font-weight: 700;
+  }
+  span{
+    color: #333;
+  }
+  
+  .player-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    color: rgb(29, 255, 255);
+
+   
+  }
+  
+  .player-score-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    color: rgb(29, 255, 255);
+
+  }
+   .rollBtn{
+    width: 100px;
+    padding: 10px 15px;
+    background-color: rgba(9, 129, 129, 0.653); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 2px solid ;
+    margin-left: 40px;
+   
+
+   }
+   .rollBtn:hover{
+    background-color:  rgb(82, 112, 112);
+   }
+   .rollBtn:focus{
+    outline: none;
+   }
+   .rollBtn:active{
+    box-shadow: inset 10px 10px 7px -5px rgb(0 , 0, 0, 0.7);
+   }
+   
