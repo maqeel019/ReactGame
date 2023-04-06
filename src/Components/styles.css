@@ -86,4 +86,8 @@
    .rollBtn:active{
     box-shadow: inset 10px 10px 7px -5px rgb(0 , 0, 0, 0.7);
    }
-   
+   #footer{
+    display:flex;
+    justify-content: center;
+    margin-top: inherit;
+  }
