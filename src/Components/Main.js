@@ -87,7 +87,7 @@ function App() {
         <button className="rollBtn" onClick={rollDice}>
           {tenzies ?"New Game" : "Roll"}
         </button>
-      <footer id="footer">© 2023 AQEEL(AK019). All rights reserved.</footer>
+      <footer id="footer">© 2023 AQEEL(AK019).This work is copyright-free.</footer>
       </div>
     </div>
   );
